@@ -1,4 +1,8 @@
 
+_This is a fork of [https://github.com/katzer/cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications) with added some features_
+
+consider supporting the original repo.
+
 [![npm version](https://badge.fury.io/js/de.appplant.cordova.plugin.local-notification.svg)](http://badge.fury.io/js/de.appplant.cordova.plugin.local-notification)
 [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3HKQCD9UA35A "Donate once-off to this project using Paypal")
 
@@ -8,7 +12,7 @@ Cordova Local-Notification Plugin
 The essential purpose of local notifications is to enable an application to inform its users that it has something for them — for example, a message or an upcoming appointment — when the application isn’t running in the foreground.<br>
 They are scheduled by an application and delivered on the same device.
 
-<img width="35%" align="right" hspace="19" vspace="12" src="https://raw.githubusercontent.com/katzer/cordova-plugin-local-notifications/example/images/android.png"></img>
+<img width="35%" align="right" hspace="19" vspace="12" src="https://raw.githubusercontent.com/vasani-arpit/cordova-plugin-local-notifications/example/images/Screenshot (6).png"></img>
 
 ### How they appear to the user
 Users see notifications in the following ways:
