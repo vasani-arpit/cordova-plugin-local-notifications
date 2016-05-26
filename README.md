@@ -1,6 +1,18 @@
 
 _This is a fork of [https://github.com/katzer/cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications) with added some features_
 
+Every syntax is same as [katzer](https://github.com/katzer/cordova-plugin-local-notifications)'s plugin.
+
+I've added this folowing things.
+
+1. **heads up notification will be shown as Screenshot when notification will appear in Android and lollipop and Marshmallow.**
+2. **App will come to foreground from background when notification is triggred.**
+3. **the notification will be looped until user clicks on notification or opens phone's notification panel.**
+
+Basically My idea/requirement was to act notifications like alarms. and it does the job.
+
+**All the changes are made in Android platform.** ios and windows are as it is they are in [katzer](https://github.com/katzer/cordova-plugin-local-notifications)'s plugin
+
 consider supporting the original repo.
 
 [![npm version](https://badge.fury.io/js/de.appplant.cordova.plugin.local-notification.svg)](http://badge.fury.io/js/de.appplant.cordova.plugin.local-notification)
