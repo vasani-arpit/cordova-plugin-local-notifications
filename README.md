@@ -13,6 +13,8 @@ Basically My idea/requirement was to act notifications like alarms. and it does 
 
 **All the changes are made in Android platform.** ios and windows are as it is they are in [katzer](https://github.com/katzer/cordova-plugin-local-notifications)'s plugin
 
+see the example [https://github.com/vasani-arpit/cordova-notification-alarm-sample](https://github.com/vasani-arpit/cordova-notification-alarm-sample)
+
 consider supporting the original repo.
 
 [![npm version](https://badge.fury.io/js/de.appplant.cordova.plugin.local-notification.svg)](http://badge.fury.io/js/de.appplant.cordova.plugin.local-notification)
