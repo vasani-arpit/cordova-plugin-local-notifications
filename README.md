@@ -9,7 +9,7 @@ I've added this folowing things.
 2. **App will come to foreground from background when notification is triggred.**
 3. **the notification sound will be looped until user clicks on notification or opens phone's notification panel.**
 
-Basically My idea/requirement was to act notifications like alarms. and it does the job.
+Basically My idea/requirement was to act notifications like alarms. and this does the job.
 
 **All the changes are made in Android platform.** ios and windows are as it is they are in [katzer](https://github.com/katzer/cordova-plugin-local-notifications)'s plugin
 
