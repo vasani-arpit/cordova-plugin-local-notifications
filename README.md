@@ -7,7 +7,7 @@ I've added this folowing things.
 
 1. **heads up notification will be shown as Screenshot when notification will appear in Android and lollipop and Marshmallow.**
 2. **App will come to foreground from background when notification is triggred.**
-3. **the notification will be looped until user clicks on notification or opens phone's notification panel.**
+3. **the notification sound will be looped until user clicks on notification or opens phone's notification panel.**
 
 Basically My idea/requirement was to act notifications like alarms. and it does the job.
 
