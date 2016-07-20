@@ -23,6 +23,9 @@
 
 package de.appplant.cordova.plugin.notification;
 
+
+import org.chromium.*;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -56,9 +59,9 @@ abstract public class AbstractTriggerReceiver extends BroadcastReceiver {
             String data = bundle.getString(Options.EXTRA);
             JSONObject dict = new JSONObject(data);
 			
-			 Log.d("Trigger", "on Trigger Received: ========================================================");
+			// Log.d("Trigger", "on Trigger Received: ========================================================");
 
-            Intent appIntent = new Intent(context, MainActivity.class);
+            Intent appIntent = new Intent(context, BackgroundActivity.class);
             appIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.getApplicationContext().startActivity(appIntent);
 

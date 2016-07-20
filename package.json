@@ -41,6 +41,7 @@
   ],
   "dependencies": {
     "cordova-plugin-device": "*",
+    "cordova-plugin-background-app": "*",
     "cordova-plugin-app-event": ">=1.1.0"
   },
   "author": "Sebastián Katzer",
