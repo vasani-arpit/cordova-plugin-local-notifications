@@ -15,6 +15,8 @@ Basically My idea/requirement was to act notifications like alarms. and this doe
 
 see the example [https://github.com/vasani-arpit/cordova-notification-alarm-sample](https://github.com/vasani-arpit/cordova-notification-alarm-sample)
 
+if you get an building error have a look at issue#3 for quick resolve
+
 consider supporting the original repo.
 
 [![npm version](https://badge.fury.io/js/de.appplant.cordova.plugin.local-notification.svg)](http://badge.fury.io/js/de.appplant.cordova.plugin.local-notification)
