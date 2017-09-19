@@ -19,6 +19,30 @@ if you get an building error have a look at issue#3 for quick resolve
 
 consider supporting the original repo.
 
+For prevent wakeup to foreground your app when notification is triggered put it inside "deviceready"
+
+```javascript
+          if(cordova.backgroundapp.resumeType == 'launch'){
+            cordova.backgroundapp.show();
+          }
+```
+
+if want dispatch new notification, do it like:
+```javascript
+ cordova.plugins.notification.local.scheduled({
+ 	id:0,
+	at:10000,
+	text: msg
+	}, function(){
+
+	// added for prevent open app when scheduled
+	navigator.app.exitApp();
+	});
+```
+
+All notifications will launch your app on background, but, if it already running, will open on foreground.
+
+
 [![npm version](https://badge.fury.io/js/de.appplant.cordova.plugin.local-notification.svg)](http://badge.fury.io/js/de.appplant.cordova.plugin.local-notification)
 [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3HKQCD9UA35A "Donate once-off to this project using Paypal")
 
